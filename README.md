@@ -2,6 +2,27 @@
 
 > ### :warning: This tool is experimental. Be careful of data loss and *always* make a backup.
 
+## Instalation
+
+## Linux
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+on terminal deactivate
+
+## Windows Powershell
+python3 -m venv venv or python -m venv venv
+venv\Scripts\Activate.Ps1
+pip install -r requirements.txt
+deactivate (To exit)
+
+## Windows cmd
+python3 -m venv venv or python -m venv venv
+venv\Scripts\Activate.bat
+pip install -r requirements.txt
+deactivate (To exit)
+
+
 ## Information
 
 Fixes the bug which forces a player to create a new character when they already have a save.
