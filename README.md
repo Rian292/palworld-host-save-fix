@@ -4,7 +4,7 @@
 
 ## Instalation
 
-## Linux
+### Linux
 python3 -m venv venv
 
 source venv/bin/activate
@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 on terminal deactivate
 
-## Windows Powershell
+### Windows Powershell
 python3 -m venv venv or python -m venv venv
 
 venv\Scripts\Activate.Ps1
@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 deactivate (To exit)
 
-## Windows cmd
+### Windows cmd
 python3 -m venv venv or python -m venv venv
 
 venv\Scripts\Activate.bat
